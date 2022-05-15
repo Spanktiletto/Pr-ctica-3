@@ -1,0 +1,104 @@
+
+body{
+    background-color:#15273f;
+    margin:0;
+}
+.container{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+   width:300px;
+   background-color:rgba(39, 68, 122, 0.411);
+   border-radius:  15px;
+   padding:20px 30px;
+   position:relative;
+}
+.imagen{
+    margin-bottom:20px;
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    border-radius: 50% 20% / 10% 40%;;
+}
+
+.foto{
+    width:100%;
+}
+
+.contenido{
+    margin-bottom: 25px ;
+}
+
+.contenido-titulo{
+    color:white;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-weight:900;
+    font-size:18px;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+.contenido-texto{
+    color:rgba(201, 172, 172, 0.425);
+    font-size:13px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-weight:700;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    margin-bottom:20px;
+}
+
+.info > div{
+    display: flex;
+    align-items:center;
+    gap: 3px;
+    font-size:14px;
+}
+
+.info-precio{
+    color:aqua;
+    font-weight:900;
+}
+.info-tiempo{
+    color:rgb(160, 150, 150);
+    font-weight:900;
+}
+
+.avatar{
+    padding-top:15px;
+    display:flex;
+    align-items: center;
+    border-top: 1px solid hsla(215, 52%, 70%, 0.267);
+}
+
+.img-avatar{
+    width: 60px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.img-img-avatar{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.avatar-texto{
+    color: hsla(215, 51%, 70%);
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-weight: 600;
+    margin:0;
+}
+
+.nombre{
+    color: white;
+    cursor: pointer;
+}
